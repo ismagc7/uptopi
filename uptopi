@@ -1,5 +1,5 @@
 #!/bin/bash
-##########################################################
+
 
 #Script para subir archivos locales a un repositorio remoto.
 
@@ -9,13 +9,13 @@
 
 # 1- Modificar variables dentro del codigo:
 
-# DEFAULT_REMOTE_DIRECTORY --> un directorio por defecto en tu maquina remota en caso de que 
+# DEFAULT_REMOTE_DIRECTORY --> un directorio por defecto en tu máquina remota en caso de que 
 # no pases uno como argumento
-# REMOTE_USER --> el usuario para conectarte remotamente a esa maquina.
+# REMOTE_USER --> el usuario para conectarte remotamente a esa máquina.
 # XXX.XXX.X.XXX --> la Ip de tu máquina remota, recomiendo asignarle una Ip estática, sinó no funcionará.
 # HOME_DIRECTORY --> el directorio home de tu máquina remota.
 
-# Este script sube tanto archivos como directorios.
+# Éste script sube tanto archivos como directorios.
 
 if [ ! $1 ]; then
     echo "Falta decir un archivo o un directorio para subir"
